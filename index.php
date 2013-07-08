@@ -19,7 +19,7 @@
 				<li><a href="barcode.php?seq1=TGGAATTTGAGCAGGTTTAGTTGGAACTTCATTAAGTCTTCTAATTCGTACTGAATTAGGTACCCCAGGATCTTTAATTGGAGACGACCAAATTTATAATACTATTGTAACAGCTCATGCATTTATTATAATTTTTTTCATAGTAATACCTATTATAATTGGAGGATTTGGAAATTGATTAGTACCCTTAATATTAGGAGCTCCAGATATAGCATTTCCTCGAATAAATAATATAAGATTTTGATTATTACCCCCATCCTTGACCCTATTAATTTCAAGAAGTATTGTAGAAAATGGTGCTGGTACTGGTTGAACTGTATATCCCCCACTTTCATCTAATATTGCCCACCAAGGAGCTTCTGTTGACTTAGCAATTTTTTCCCTTCATCTTGCAGGTATTTCTTCTATTTTAGGAGCTATTAATTTTATTACAACTATTATTAATATACGAATTAATAATATATCATTTGATCAAATACCATTATTTGTTTGAGCAGTAGGAATTACTGCTTTATTATTATTACTTTCTTTACCAGTTTTAGCTGGTGCTATTACTATATTATTAACAGACCGAAATCTTAATACTTCATTTTTTGATCCTGCTGGAGGAGGTGATCCTATTTTATACCAACATTTATTT&seq2=AACTCTATATTTTATTTTTGGAATTTGAGCAGGTTTAGTTGGAACTTCATTAAGTCTTCTAATTCGTACTGAATTAGGTACCCCAGGATCTTTAATTGGAGACGACCAAATTTATAATACTATTGTAACAGCTCATGCATTTATTATAATTTTTTTCATAGTAATACCTATTATAATTGGAGGATTTGGAAATTGATTAGTACCCTTAATATTAGGAGCTCCAGATATAGCATTTCCTCGAATAAATAATATAAGATTTTGATTATTACCCCCATCCTTGACCCTATTAATTTCAAGAAGTATTGTAGAAAATGGTGCTGGTACTGGTTGAACTGTATATCCCCCACTTTCATCTAATATTGCCCACCAAGGAGCTTCTGTTGACTTAGCAATTTTTTCCCTTCATCTTGCAGGTATTTCTTCTATTTTAGGAGCTATTAATTTTATTACAACTATTATTAATATACGAATTAATAATATATCATTTGATCAAATACCATTATTTGTTTGAGCAGTAGGAATTACTGCTTTATTATTATTACTTTCTTTACCAGTTTTAGCTGGTGCTATTACTATATTATTAACAGACCGAAATCTTAATACTTCATTTTTTGATCCTGCTGGAGGAGGTGATCCTATTTTATACCAACATTTATTT&consenso=1"><i class="icon-chevron-right"></i>Graficar solo alineamiento</a></li>
 			<li>Realizado por Federico Matarrita Arata<br />
 			Universidad de Costa Rica<br />
-			Curos de Bioinform&aacute;tica<br /><br />
+			Curso de Bioinform&aacute;tica<br /><br />
 			<a href="https://github.com/usematics/nedleeman">C&oacute;digo fuente en Github</a>
 			</li>
 			</ul>
@@ -71,11 +71,11 @@
 		<div class="">
 			<p>Agregar a su sitio web:</p>
 			<textarea id="code1" class="span5" rows="4"> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCG" /&gt;</textarea>
-			<p>Para incluir el gr&aacute;fico de una secuencia en en su sitio web puede llamarla de la siguiente forma:</p>
+			<p>Para incluir el gr&aacute;fico de una secuencia en su sitio web puede llamarla de la siguiente forma:</p>
 			<code>&lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCG" /&gt;</code>
-			<p>Para incluir el gr&aacute;fico de dos secuencias y su alineamiento en en su sitio web puede llamarla de la siguiente forma:</p>
+			<p>Para incluir el gr&aacute;fico de dos secuencias y su alineamiento en su sitio web puede llamarla de la siguiente forma:</p>
 			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCG&seq2=ATCGATCGATCGATCGATCG" /&gt;</code>
-			<p>Para incluir el gr&aacute;fico de una secuencia en en su sitio web puede llamarla de la siguiente forma:</p>
+			<p>Para incluir el gr&aacute;fico de una secuencia en su sitio web puede llamarla de la siguiente forma:</p>
 			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCGseq2=ATCGATCGATCGATCGATCG&consenso=1" /&gt;</code>
 		
 		</div>
