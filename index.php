@@ -72,11 +72,11 @@
 			<p>Agregar a su sitio web:</p>
 			<textarea id="code1" class="span5" rows="4"> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCG" /&gt;</textarea>
 			<p>Para incluir el gr&aacute;fico de una secuencia en en su sitio web puede llamarla de la siguiente forma:</p>
-			<code>&lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCG" /&gt;</code>
+			<code>&lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCG" /&gt;</code>
 			<p>Para incluir el gr&aacute;fico de dos secuencias y su alineamiento en en su sitio web puede llamarla de la siguiente forma:</p>
-			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCG&seq2=ATCGATCGATCGATCGATCG" /&gt;</code>
+			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCG&seq2=ATCGATCGATCGATCGATCG" /&gt;</code>
 			<p>Para incluir el gr&aacute;fico de una secuencia en en su sitio web puede llamarla de la siguiente forma:</p>
-			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCGseq2=ATCGATCGATCGATCGATCG&consenso=1" /&gt;</code>
+			<code> &lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCGseq2=ATCGATCGATCGATCGATCG&consenso=1" /&gt;</code>
 		
 		</div>
 		</aside>		
@@ -105,7 +105,7 @@ function limpiar(){
 	document.getElementById('seq2').value ="";
 	document.getElementById('consenso').checked = false;
 	document.getElementById("resultado").innerHTML="";
-	document.getElementById("code1").innerHTML='&lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode?seq1=ATCGATCGATCGATCGATCG" /&gt;';
+	document.getElementById("code1").innerHTML='&lt;img src="http://bioinformatica.usematics.com/ws/needleman/barcode.php?seq1=ATCGATCGATCGATCGATCG" /&gt;';
 	document.getElementById('ctr-seq2').className = "control-group  span8";
 	document.getElementById('ctr-seq1').className = "control-group  span8";
 	
